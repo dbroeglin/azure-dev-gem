@@ -4,6 +4,11 @@ module Azd
       source_root File.expand_path("../templates", __dir__)
 
       desc "Install Azure Developer CLI files"
+
+      def copy_install
+        template "azure.yaml"
+        directory "infra"
+      end
     end
   end
 end

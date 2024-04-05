@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.homepage    =
     "https://github.com/dbroeglin/azure-dev-gem"
   s.license       = "MIT"
-  s.required_ruby_version = '~> 2.7'
-  s.add_dependency "railties", "~> 6.1"
+  s.required_ruby_version = '>= 2.7.0'
+  s.add_dependency "railties", ">= 3", "< 99"
 
   s.metadata    = { "source_code_uri" => "https://github.com/dbroeglin/azure-dev-gem" }
 
